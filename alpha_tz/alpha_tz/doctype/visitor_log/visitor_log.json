@@ -14,8 +14,9 @@
  "fields": [
   {
    "fieldname": "visitor",
-   "fieldtype": "Data",
-   "label": "Visitor"
+   "fieldtype": "Link",
+   "label": "Visitor",
+   "options": "Visitor"
   },
   {
    "fieldname": "time_in",
@@ -30,7 +31,7 @@
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2022-09-29 08:45:08.855801",
+ "modified": "2022-10-04 08:56:55.178125",
  "modified_by": "Administrator",
  "module": "Alpha Tz",
  "name": "Visitor Log",
