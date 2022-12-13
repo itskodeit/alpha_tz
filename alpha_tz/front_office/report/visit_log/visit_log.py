@@ -91,7 +91,7 @@ def get_data(filters):
 		tv.purpose, tv.employee_name, tv.time_in, tv.time_out, tv.branch
 		
 		from `tabVisit` tv
-		where tv.docstatus !=2
+		where tv.visit_date BETWEEN %(from_date)s AND %(to_date)s AND tv.docstatus !=2
 		order by tv.visit_date ASC
 		"""+ where, where_filter, as_dict=1)
 	return data
