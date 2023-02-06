@@ -5,4 +5,8 @@ import frappe
 from frappe.model.document import Document
 
 class Visit(Document):
-	pass
+
+	def before_submit(self):
+		if self.state == "Check-In":
+			frappe.throw("Checkout Visitor first then submit")
+

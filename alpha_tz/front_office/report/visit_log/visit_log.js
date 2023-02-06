@@ -23,12 +23,12 @@ frappe.query_reports["Visit Log"] = {
 			"fieldtype": "Date",
 			"default": to_date
 		},
-		{
+		/*{
 			"fieldname":"branch",
 			"label": __("Branch"),
 			"fieldtype": "Link",
 			"options": "Branch",
 			"width": "80"
-		},
+		},*/
 	]
 };

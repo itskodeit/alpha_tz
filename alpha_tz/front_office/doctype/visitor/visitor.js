@@ -5,13 +5,13 @@ frappe.ui.form.on('Visitor', {
 	// refresh: function(frm) {
 
 	// }
-	 frm.set_query("vistor", function() {
+	/* frm.set_query("vistor", function() {
         return {
             "filters": {
                 "visitor_name": "visitor_name",
             }
         };
     });
-
+*/
 });
 

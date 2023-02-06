@@ -15,6 +15,7 @@
   "email",
   "data_8",
   "visitor_name",
+  "company",
   "id_type",
   "id_no"
  ],
@@ -70,11 +71,16 @@
    "fieldname": "visitor_middle_name",
    "fieldtype": "Data",
    "label": "Visitor Middle Name"
+  },
+  {
+   "fieldname": "company",
+   "fieldtype": "Data",
+   "label": "From Company"
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2022-10-04 08:14:49.149562",
+ "modified": "2022-12-21 12:39:10.085682",
  "modified_by": "Administrator",
  "module": "Front Office",
  "name": "Visitor",
